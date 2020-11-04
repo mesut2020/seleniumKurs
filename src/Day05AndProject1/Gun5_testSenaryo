@@ -1,0 +1,38 @@
+Test Senaryo
+1- http://www.practiceselenium.com git
+2- Check Out a tıklat   linkText   Check Out
+3- email e bilgi gir     id  email
+4- name bilgi gir     id name
+5- addres e bilgi gir      id address
+6- Place Order butonuna tıklat.    className   btn btn-primary
+7- Açılan sayfaya geldiği assert
+   kontrol et.(yeni sayfada Menu yazısı          Menu   id   id="wsb-element-00000000-0000-0000-0000-000450914921"
+   var mı?)
+
+8- URL yi de kontrol edin...
+http://www.practiceselenium.com/menu.html?
+
+
+        ///////
+        takeSnapShot(driver, "c://test.png") ;
+
+    /**
+     * This function will take screenshot
+     * @param webdriver
+     * @param fileWithPath
+     * @throws Exception
+     */
+
+    }
+
+    public static void takeSnapShot(WebDriver webdriver,String fileWithPath) throws Exception {
+//Convert web driver object to TakeScreenshot
+        TakesScreenshot scrShot = ((TakesScreenshot) webdriver);
+//Call getScreenshotAs method to create image file
+        File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
+//Move image file to new destination
+        File DestFile = new File(fileWithPath);
+//Copy file at destination
+        FileUtils.copyFile(SrcFile, DestFile);
+
+        ///////

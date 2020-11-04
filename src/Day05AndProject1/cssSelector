@@ -1,0 +1,10 @@
+driver.findElement(By.cssSelector("[id=email]"));
+
+[id=email], #email
+input[class=span6][id=email]
+
+label[for=name]
+
+[id=wsb-element-00000000-0000-0000-0000-000450914921] > div > h1
+
+[id=wsb-canvas-template-container] div+div+div
