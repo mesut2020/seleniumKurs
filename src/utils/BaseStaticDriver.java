@@ -15,18 +15,19 @@ public class BaseStaticDriver {
 
     static{
         System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true"); // Konsoldaki kirmizi yazilari gostermez
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver90.exe");
         driver= new ChromeDriver();
 
         wait = new WebDriverWait(driver, 10);
 
         driver.manage().window().maximize();
 
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);  // sayfanin yuklenmesini bekler
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);  // sayfanin yuklenmesini bekler
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // sayfadaki butun elemeanlarin yuklenmesini max. 30sn bekler...
 
         driver.manage().deleteAllCookies();
 
         js = (JavascriptExecutor) driver;
     }
+
 }

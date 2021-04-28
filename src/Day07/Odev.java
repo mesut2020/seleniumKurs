@@ -25,7 +25,7 @@ public class Odev extends BaseStaticDriver {
         driver.get("https://www.saucedemo.com");
         logIn();
 
-        List<WebElement> addButton = driver.findElements(By.xpath("//button[text()='ADD TO CART']"));
+        List<WebElement> addButton = driver.findElements(By.xpath("//button[text()='Add to cart']"));
 
         for (WebElement e: addButton) {
             e.click();
@@ -33,18 +33,19 @@ public class Odev extends BaseStaticDriver {
 
         driver.findElement(By.cssSelector("div#shopping_cart_container")).click();
 
-        List<WebElement> removeButton = driver.findElements(By.xpath("//button[text()='REMOVE']"));
+        List<WebElement> removeButton = driver.findElements(By.xpath("//button[text()='Remove']"));
 
         for (WebElement e: removeButton) {
             e.click();
         }
-        List<WebElement> sepetNo = driver.findElements(By.cssSelector("span.fa-layers-counter.shopping_cart_badge"));
+        List<WebElement> sepetNo = driver.findElements(By.cssSelector("span.shopping_cart_badge"));
 
         if(sepetNo.size()==0) System.out.println("Sepette urun yoktur...");
-        else System.out.println("Sepette kalan urun sayisi : " +driver.findElement(By.cssSelector("span.fa-layers-counter.shopping_cart_badge")).getText());
+        else System.out.println("Sepette kalan urun sayisi : " +driver.findElement(By.cssSelector("span.shopping_cart_badge")).getText());
+
         String urunSayisi="0";
 
-        if (sepetNo.size()!=0) urunSayisi = driver.findElement(By.cssSelector("span.fa-layers-counter.shopping_cart_badge")).getText(); // size 0 olunca elemani bulamayacagi icin hata verir
+        if (sepetNo.size()!=0) urunSayisi = driver.findElement(By.cssSelector("span.shopping_cart_badge")).getText(); // size 0 olunca elemani bulamayacagi icin hata verir
 
         Assert.assertEquals("HATA : Sepet bos olmasi gerekirken, sepette " + urunSayisi+" adet urun bulunmaktadir...",0, sepetNo.size());
 

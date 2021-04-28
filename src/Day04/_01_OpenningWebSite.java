@@ -8,7 +8,7 @@ public class _01_OpenningWebSite extends BaseStaticDriver {
 
         driver.get("http://www.practiceselenium.com/");
         //driver.navigate.to("https://www.google.com.tr/"); // sayfanin
-
+        driver.manage().deleteAllCookies();
         Thread.sleep(1000);
 
         driver.manage().window().maximize();

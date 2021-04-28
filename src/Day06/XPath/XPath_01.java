@@ -36,28 +36,34 @@ static double stringToDouble(String ucret){
 }
 
     public static void main(String[] args) throws InterruptedException, IOException {
+        //1- https://www.saucedemo.com/  sitesini açın
         driver.navigate().to("https://www.saucedemo.com/");
 
+        //2- login işlemini yapınız.
         driver.findElement(By.xpath("//input[@id='user-name'] ")).sendKeys("standard_user");
         driver.findElement(By.xpath("//input[@id='password'] ")).sendKeys("secret_sauce");
         driver.findElement(By.xpath("//input[@id='login-button'] ")).click();
 
+        //3- Sauce Labs Backpack  a tıklatın ve sepete ekletin.
         driver.findElement(By.xpath("//div[text()='Sauce Labs Backpack']")).click();
-        driver.findElement(By.xpath("//button[@class='btn_primary btn_inventory']")).click();
-        driver.findElement(By.xpath("//button[text()='<- Back']")).click();
+        driver.findElement(By.xpath("//button[@data-test='add-to-cart-sauce-labs-backpack']")).click();
+        driver.findElement(By.xpath("//div[@class='left_component']")).click();
 
+        //5- Sauce Labs Bolt T-Shirt  a tıklatın ve sepete ekleyin.
         driver.findElement(By.xpath("//div[text()='Sauce Labs Bolt T-Shirt']")).click();
-        driver.findElement(By.xpath("//button[text()='ADD TO CART']")).click();
-        driver.findElement(By.xpath("//button[text()='<- Back']")).click();
+        driver.findElement(By.xpath("//button[text()='Add to cart']")).click();
+        driver.findElement(By.xpath("//div[@class='left_component']")).click();
 
+        //6- sepete tıklatın
         driver.findElement(By.xpath("//div[@id='shopping_cart_container']")).click();
+        //7- CheckOut a tıklatın
+        driver.findElement(By.xpath("//button[text()='Checkout']")).click(); Thread.sleep(500);
 
-        driver.findElement(By.xpath("//a[text()='CHECKOUT']")).click(); Thread.sleep(500);
-
+        //8- kullanıcı bilgilerini doldurup Continue ya tıklatın
         driver.findElement(By.xpath("//input[@id='first-name']")).sendKeys("Mesut");
         driver.findElement(By.xpath("//input[@id='last-name']")).sendKeys("Dogan");
         driver.findElement(By.xpath("//input[@id='postal-code']")).sendKeys("12345");
-        driver.findElement(By.xpath("//input[@value='CONTINUE']")).click();
+        driver.findElement(By.xpath("//input[@value='Continue']")).click();
 
         String fiyat1 =driver.findElement(By.xpath("(//div[@class='inventory_item_price'])[1]")).getText();  //$29.99
         String fiyat2 =driver.findElement(By.xpath("(//div[@class='inventory_item_price'])[2]")).getText();  //$15.99

@@ -9,10 +9,9 @@ public class _03_FindingByClassName extends BaseStaticDriver {
 
         driver.get("http://www.practiceselenium.com/");
 
-        driver.manage().window().fullscreen();
+        //driver.manage().window().maximize();
 
         WebElement e = driver.findElement(By.className("editor_collections"));
-
         System.out.println(e.getText());
 
 

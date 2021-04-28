@@ -7,7 +7,6 @@ import utils.BaseStaticDriver;
 public class Galatasaray extends BaseStaticDriver {
     public static void main(String[] args) throws InterruptedException {
 
-
         driver.get("https://www.galatasaray.org/anasayfa");
         driver.manage().window().maximize();
 
@@ -16,9 +15,6 @@ public class Galatasaray extends BaseStaticDriver {
         //System.out.println(e.getAttribute("href"));
         System.out.println(e.getText());
         System.out.println(e.getAttribute("href"));
-
-
-
 
         Thread.sleep(1000);
         driver.quit();

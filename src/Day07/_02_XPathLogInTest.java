@@ -13,7 +13,9 @@ public class _02_XPathLogInTest extends BaseStaticDriver {
        String pass = "secret_sauce";
 
         String users = driver.findElement(By.cssSelector("div[class='login_credentials']")). getText();
+        System.out.println("user names:" + users);
         String[] userArr = users.split("\n");
+
 
         for(int i=1; i<userArr.length;i++)
         {
@@ -30,7 +32,7 @@ public class _02_XPathLogInTest extends BaseStaticDriver {
             //findelement 1 element bulur, bulamazsa NoSuchElementException hatasını üretir.
             //findelements çoklu elements bulur, bulamazsa size 0 gönderir.
 
-            List<WebElement> txtProducts = driver.findElements(By.xpath("//div[text()='Products']"));
+            List<WebElement> txtProducts = driver.findElements(By.xpath("//span[text()='Products']"));
 
             if (txtProducts.size() == 1)
             {
@@ -44,7 +46,7 @@ public class _02_XPathLogInTest extends BaseStaticDriver {
             }
         }
 
-       // driver.quit();
+        driver.quit();
 
     }
 }

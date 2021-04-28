@@ -22,9 +22,9 @@ public class _01_FormDoldurma extends BaseStaticDriver {
         driver.findElement(By.cssSelector("input[value='Every Day']")).click();Thread.sleep(500);
         driver.findElement(By.cssSelector("input[value='Good']")).click();Thread.sleep(500);
         driver.findElement(By.cssSelector("select[id$='_4597']>:nth-child(4)")).click();Thread.sleep(500);
-        driver.findElement(By.cssSelector("textarea#u_Hc4_89597")).sendKeys("XYZ");Thread.sleep(500);
+        driver.findElement(By.cssSelector(".u-full-width")).sendKeys("XYZ");Thread.sleep(500);
 
-        Thread.sleep(15000);
+        Thread.sleep(5000);
         driver.quit();
 
     }
