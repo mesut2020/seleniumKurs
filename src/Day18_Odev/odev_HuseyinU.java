@@ -29,7 +29,7 @@ public class odev_HuseyinU extends BaseStaticDriver {
         Thread.sleep(5000);
 
         //ürünleri liste ekledik
-        List<WebElement> urunList = driver.findElements(By.xpath("//div[@class='trendingProd product-relative dp-widget-link col-xs-5 favDp']"));
+        List<WebElement> urunList = driver.findElements(By.cssSelector("div[class='trendingProd product-relative dp-widget-link col-xs-5 favDp']>a>div+div+div>div[class='product_name']"));//div[@class='trendingProd product-relative dp-widget-link col-xs-5 favDp']
         WebElement next = driver.findElement(By.xpath("(//i[@class='next-i'])[2]"));
 
 
@@ -64,8 +64,8 @@ public class odev_HuseyinU extends BaseStaticDriver {
         System.out.println("Sepete eklenen ürün = " + eklenenUrun);
 
         // Cereze tıklatma
-        WebElement cerez = driver.findElement(By.xpath("//div[text()='Decline All']"));
-        cerez.click();
+//        WebElement cerez = driver.findElement(By.xpath("//div[text()='Decline All']"));
+//        cerez.click();
 
         // add To Cart
         WebElement addToCart = driver.findElement(By.cssSelector("div#add-cart-button-id"));

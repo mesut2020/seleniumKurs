@@ -2,26 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85348d88-e6b2-443b-bc5d-d228b68d5698" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver90.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EkranGoruntuleri/orangehrm/LoginKontrol09-06-2021 23 08 24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EkranGoruntuleri/orangehrm/LoginKontrol09-06-2021 23 08 46.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day04/Galatasaray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day04/Galatasaray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day04/_01_OpenningWebSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day04/_01_OpenningWebSite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day04/_03_FindingByClassName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day04/_03_FindingByClassName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day06/XPath/XPath_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day06/XPath/XPath_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day06/cssSelector/_01_FormDoldurma.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day06/cssSelector/_01_FormDoldurma.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day07/_02_XPathLogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day07/_02_XPathLogInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EkranGoruntuleri/orangehrm/LoginKontrol.png" beforeDir="false" afterPath="$PROJECT_DIR$/EkranGoruntuleri/orangehrm/LoginKontrol.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day07/Odev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day07/Odev.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day08/_02_AlisverisListeKontrol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day08/_02_AlisverisListeKontrol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day08/_03_SelectClassGiris.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day08/_03_SelectClassGiris.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day08/_05_SelectFacebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day08/_05_SelectFacebook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day09/_03_IsDisplayed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day09/_03_IsDisplayed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day10_Project_2/SeleniumProject2a.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day10_Project_2/SeleniumProject2a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day10_Project_2/SeleniumProject2b.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day10_Project_2/SeleniumProject2b.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day10_Project_2/SeleniumProject2c.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day10_Project_2/SeleniumProject2c.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day11/OdevDragDropGetCss_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day11/OdevDragDropGetCss_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day11/OdevDragDropGetCss_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day11/OdevDragDropGetCss_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day11/OdevDragDropGetCss_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day11/OdevDragDropGetCss_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day11/OdevGibi_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day11/OdevGibi_04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day11/_01_ActionClickTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day11/_01_ActionClickTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day11/_02_DoubleClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day11/_02_DoubleClick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day11/_06_DragAndDropTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day11/_06_DragAndDropTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day12/_01_HoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day12/_01_HoverOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day12/_03_IntroAlert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day12/_03_IntroAlert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day13/_01_ExplicitWait.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day13/_01_ExplicitWait.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day13/_04_IFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day13/_04_IFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day14_Windows_Scrolling/_02_SwitchingToWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day14_Windows_Scrolling/_02_SwitchingToWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day14_Windows_Scrolling/_04_ScrollIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day14_Windows_Scrolling/_04_ScrollIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day14_Windows_Scrolling/_06_ScrollToWebElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day14_Windows_Scrolling/_06_ScrollToWebElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day14_Windows_Scrolling/_07_KademeliKaydirma.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day14_Windows_Scrolling/_07_KademeliKaydirma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day14_Windows_Scrolling/araTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day14_Windows_Scrolling/araTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SDET/Day15_Project_3/Project1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day15_Project_3/Project1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day16_RobotClass/_01_RobotIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day16_RobotClass/_01_RobotIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day16_RobotClass/_02_Copytext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day16_RobotClass/_02_Copytext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day16_RobotClass/_04_Kaydet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day16_RobotClass/_04_Kaydet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day16_RobotClass/_05_Ornek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day16_RobotClass/_05_Ornek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day17_ScreenShot/_01_WindowSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day17_ScreenShot/_01_WindowSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day17_ScreenShot/_02_ScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day17_ScreenShot/_02_ScreenShot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day18_Odev/GrupCalsimasiSonDers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day18_Odev/GrupCalsimasiSonDers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SDET/Day18_Odev/odev_HuseyinU.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/Day18_Odev/odev_HuseyinU.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SDET/utils/BaseStaticDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SDET/utils/BaseStaticDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day04/Galatasaray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day04/Galatasaray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day04/_01_OpenningWebSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day04/_01_OpenningWebSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day04/_03_FindingByClassName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day04/_03_FindingByClassName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day06/XPath/XPath_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day06/XPath/XPath_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day06/cssSelector/_01_FormDoldurma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day06/cssSelector/_01_FormDoldurma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day07/Odev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day07/Odev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day07/_02_XPathLogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day07/_02_XPathLogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day08/_02_AlisverisListeKontrol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day08/_02_AlisverisListeKontrol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day08/_03_SelectClassGiris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day08/_03_SelectClassGiris.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day08/_05_SelectFacebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day08/_05_SelectFacebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day09/_03_IsDisplayed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day09/_03_IsDisplayed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day10_Project_2/SeleniumProject2a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day10_Project_2/SeleniumProject2a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day10_Project_2/SeleniumProject2b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day10_Project_2/SeleniumProject2b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day10_Project_2/SeleniumProject2c.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day10_Project_2/SeleniumProject2c.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day11/OdevDragDropGetCss_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day11/OdevDragDropGetCss_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day11/OdevDragDropGetCss_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day11/OdevDragDropGetCss_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day11/OdevDragDropGetCss_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day11/OdevDragDropGetCss_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day11/OdevGibi_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day11/OdevGibi_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day11/_01_ActionClickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day11/_01_ActionClickTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day11/_02_DoubleClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day11/_02_DoubleClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day11/_06_DragAndDropTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day11/_06_DragAndDropTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day12/_01_HoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day12/_01_HoverOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day12/_03_IntroAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day12/_03_IntroAlert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day13/_01_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day13/_01_ExplicitWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day13/_04_IFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day13/_04_IFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/_02_SwitchingToWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/_02_SwitchingToWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/_03_ClosingWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/_03_ClosingWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/_04_ScrollIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/_04_ScrollIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/_06_ScrollToWebElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/_06_ScrollToWebElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/_07_KademeliKaydirma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/_07_KademeliKaydirma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/araTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day14_Windows_Scrolling/araTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day15_Project_3/Project1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day15_Project_3/Project1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day16_RobotClass/_01_RobotIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day16_RobotClass/_01_RobotIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day16_RobotClass/_02_Copytext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day16_RobotClass/_02_Copytext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day16_RobotClass/_04_Kaydet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day16_RobotClass/_04_Kaydet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day16_RobotClass/_05_Ornek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day16_RobotClass/_05_Ornek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day17_ScreenShot/_01_WindowSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day17_ScreenShot/_01_WindowSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day17_ScreenShot/_02_ScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day17_ScreenShot/_02_ScreenShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day18_Odev/GrupCalsimasiSonDers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day18_Odev/GrupCalsimasiSonDers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day18_Odev/odev_HuseyinU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day18_Odev/odev_HuseyinU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/BaseStaticDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BaseStaticDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,22 +119,22 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SDET\drivers" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Day17_ScreenShot" />
-      <recent name="Day16_RobotClass" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SDET\src\Day18_Odev" />
       <recent name="D:\SDET\src\Day05" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Day17_ScreenShot" />
+      <recent name="Day16_RobotClass" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Odev">
-    <configuration name="Odev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day07.Odev" />
+  <component name="RunManager" selected="Application.SeleniumProject_4">
+    <configuration name="GrupCalsimasiSonDers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day18_Odev.GrupCalsimasiSonDers" />
       <module name="SDET" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day07.*" />
+          <option name="PATTERN" value="Day18_Odev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XPath_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day06.XPath.XPath_01" />
+    <configuration name="SeleniumProject_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day20_Project_4.SeleniumProject_4" />
       <module name="SDET" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day06.XPath.*" />
+          <option name="PATTERN" value="Day20_Project_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_FormDoldurma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day06.cssSelector._01_FormDoldurma" />
+    <configuration name="_02_ScreenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day17_ScreenShot._02_ScreenShot" />
       <module name="SDET" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day06.cssSelector.*" />
+          <option name="PATTERN" value="Day17_ScreenShot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_XPathAlisVeris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day07._01_XPathAlisVeris" />
+    <configuration name="_04_Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day17_ScreenShot._04_Calculator" />
       <module name="SDET" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day07.*" />
+          <option name="PATTERN" value="Day17_ScreenShot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_XPathLogInTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day07._02_XPathLogInTest" />
+    <configuration name="odev_HuseyinU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day18_Odev.odev_HuseyinU" />
       <module name="SDET" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day07.*" />
+          <option name="PATTERN" value="Day18_Odev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Odev" />
-        <item itemvalue="Application._02_XPathLogInTest" />
-        <item itemvalue="Application._01_XPathAlisVeris" />
-        <item itemvalue="Application.XPath_01" />
-        <item itemvalue="Application._01_FormDoldurma" />
+        <item itemvalue="Application.SeleniumProject_4" />
+        <item itemvalue="Application.odev_HuseyinU" />
+        <item itemvalue="Application.GrupCalsimasiSonDers" />
+        <item itemvalue="Application._04_Calculator" />
+        <item itemvalue="Application._02_ScreenShot" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604495571182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Review2">
+      <created>1619646408707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619646408707</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +245,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="seleniumKurs1" />
-    <option name="LAST_COMMIT_MESSAGE" value="seleniumKurs1" />
+    <MESSAGE value="Review2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Review2" />
   </component>
 </project>

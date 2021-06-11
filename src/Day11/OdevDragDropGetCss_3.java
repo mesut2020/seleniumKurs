@@ -9,8 +9,9 @@ import utils.BaseStaticDriver;
 import java.util.List;
 
 public class OdevDragDropGetCss_3 extends BaseStaticDriver {
-    //http://dhtmlgoodies.com/scripts/drag-drop-nodes-quiz/drag-drop-nodes-quiz.html
+    // http://dhtmlgoodies.com/scripts/drag-drop-nodes-quiz/drag-drop-nodes-quiz.html
     // buradaki bütün şehirleri bütün ülkere doğru şekilde topluca dağıtınız.
+
     public static void main(String[] args) throws InterruptedException {
         driver.get("http://dhtmlgoodies.com/scripts/drag-drop-nodes-quiz/drag-drop-nodes-quiz.html");
 

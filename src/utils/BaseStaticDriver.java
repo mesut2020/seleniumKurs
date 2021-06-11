@@ -18,7 +18,7 @@ public class BaseStaticDriver {
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver90.exe");
         driver= new ChromeDriver();
 
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 10);  // explicit wait
 
         driver.manage().window().maximize();
 
@@ -28,6 +28,7 @@ public class BaseStaticDriver {
         driver.manage().deleteAllCookies();
 
         js = (JavascriptExecutor) driver;
+
     }
 
 }

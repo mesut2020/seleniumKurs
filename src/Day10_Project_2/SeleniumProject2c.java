@@ -25,6 +25,11 @@ public static void main(String[] args) throws InterruptedException {
     driver.findElement(By.cssSelector("input#user_password")).sendKeys("password");
     driver.findElement(By.cssSelector("input[name='submit']")).click();
 
+    //WebElement backToSafetyButton = driver.findElement(By.cssSelector("#primary-button"));
+    if (driver.findElement(By.cssSelector("#primary-button")).isDisplayed())
+        driver.findElement(By.cssSelector("#primary-button")).click();
+
+    driver.findElement(By.cssSelector("#transfer_funds_link")).click();
     driver.findElement(By.id("pay_bills_tab")).click();
 
     driver.findElement(By.xpath("//a[text()='Purchase Foreign Currency']")).click();
@@ -47,7 +52,7 @@ public static void main(String[] args) throws InterruptedException {
 
     Assert.assertTrue("Hata: Sonuc mesaji alinamadi...", actualResult.contentEquals("Foreign currency cash was successfully purchased."));
 
-    Thread.sleep(6000);
+    Thread.sleep(3000);
     driver.quit();
 
 }

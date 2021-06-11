@@ -30,7 +30,7 @@ public class _03_SelectClassGiris extends BaseStaticDriver {
         WebElement dropDownMenu=driver.findElement(By.cssSelector("select[id='searchDropdownBox']"));
 
         Select menu = new Select(dropDownMenu);
-        menu.selectByVisibleText("Books");
+        menu.selectByVisibleText("Bücher"); // According to language it can be changed. (Bücher, Books, ...)
 
        driver.findElement(By.cssSelector("input#twotabsearchtextbox")).sendKeys("Harry Potter");Thread.sleep(1000);
 

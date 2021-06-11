@@ -41,6 +41,7 @@ public class Project1 extends BaseStaticDriver {
      */
     public static void main(String[] args) throws InterruptedException {
         driver.get("https://app.hubspot.com/login");
+
         String homePageID = driver.getWindowHandle();
 
 //        driver.findElement(By.id("username")).sendKeys("medogan@gmail.com");

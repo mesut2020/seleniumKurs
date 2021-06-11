@@ -26,7 +26,7 @@ public class _03_ClosingWindows extends BaseStaticDriver {
 
             driver.switchTo().window(id);
             System.out.println("Window title : " +driver.getTitle() + "   "+ driver.getCurrentUrl());
-            driver.close();
+            driver.close(); //
         }
         driver.switchTo().window(homePageID); // Diger acilan pencereleri kapattiktan sonra ana sayfa acik kaliyor.
         // Eger tekrar ana sayfada islem yapmak istiyorsak. Ana sayfaya switchTo yapmaliyiz...

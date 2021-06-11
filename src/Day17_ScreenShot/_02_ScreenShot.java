@@ -7,6 +7,8 @@ import utils.BaseStaticDriver;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 /*
    Senaryo :
@@ -47,9 +49,12 @@ public class _02_ScreenShot  extends BaseStaticDriver {
             // DosyaKopyala (ekranDosyasi, ekranGoruntusu.png)
             // Yukaridaki komut JAVA nin iicnde yok, ayni Selenium u ekledigimiz gibi ekleyecegiz.
             // bu kutuphane common.io bu apache sitesinden indirilecek.
-            FileUtils.copyFile(screenFile, new File("EkranGoruntuleri/orangehrm/LoginKontrol.png"));
+            FileUtils.copyFile(screenFile, new File("EkranGoruntuleri/orangehrm/LoginKontrol"+LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH mm ss"))+".png"));
             // hafizadaki ekran dosyasini al ve verdigim yola ve isme kaydet...
             // jpg, bmp, gif
+            System.out.println(LocalDateTime.now());
+            System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss")));
+
 
         }
 

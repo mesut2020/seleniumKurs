@@ -23,7 +23,9 @@ public class _02_SwitchingToWindow  extends BaseStaticDriver {
         for (String id : windowsIDs ) {
             if(homePageID.equals(id)) continue;
             System.out.println(id);
-            driver.switchTo().window(id);
+            driver.switchTo().window(id);// diğer ID li sayfaya geçiş yaptı, şu an driver onu temsil ediyor.
+            // Framlerden farklı olarak; framelerde diğer frame geçmeden önce ana sayfaya dönmek zorundaydık,
+            // windowlarda buna gerek yok, direk istediğimiz windowdan istediğimize geçiş yapabiliyoruz.
             System.out.println("Window title : " +driver.getTitle() + "   "+ driver.getCurrentUrl());
         }
 

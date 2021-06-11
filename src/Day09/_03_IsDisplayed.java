@@ -9,6 +9,7 @@ public class _03_IsDisplayed extends BaseStaticDriver {
 
         driver.get("https://www.facebook.com");
         //driver.manage().deleteAllCookies(); // siteler bizim bilgileri tutarak bazen engel cikardigi cookies leri sildik...
+
         driver.findElement(By.cssSelector("a[id^='u_'][id$='_2']")).click();Thread.sleep(1000);
 
         driver.findElement(By.cssSelector("input[id^='u_'][id$='_b']")).sendKeys("Ahmet"); Thread.sleep(500);  // firstname

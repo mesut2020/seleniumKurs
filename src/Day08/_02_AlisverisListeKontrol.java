@@ -31,7 +31,7 @@ public class _02_AlisverisListeKontrol extends BaseStaticDriver {
             list1.add(e.getText());
         }
 
-        List<WebElement> addButton = driver.findElements(By.xpath("//button[text()='ADD TO CART']"));
+        List<WebElement> addButton = driver.findElements(By.xpath("//button[text()='Add to cart']"));
 
         for (WebElement e: addButton) {
             e.click();
@@ -45,6 +45,7 @@ public class _02_AlisverisListeKontrol extends BaseStaticDriver {
         }
 //        list2.remove(2); // hata gormek iicn
 //        list2.add(2 , "Blue Jeans");
+
         int i=0;
         for (String s:list1  ) {
             if(!list1.get(i).equals(list2.get(i)))
@@ -53,13 +54,11 @@ public class _02_AlisverisListeKontrol extends BaseStaticDriver {
         }
 
         System.out.println(list1.get(2));
+        System.out.println(list1);
         System.out.println(list2);
 
         driver.quit();
 
     }
-
-
-
 
 }

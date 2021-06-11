@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import utils.BaseStaticDriver;
 
+import java.util.List;
+
 public class _05_SelectFacebook extends BaseStaticDriver {
     /*
    Senaryo
@@ -37,11 +39,12 @@ $ -> ile biten
     public static void main(String[] args) throws InterruptedException {
 
         driver.get("https://www.facebook.com");
-        //driver.manage().deleteAllCookies(); // siteler bizim bilgileri tutarak bazen engel cikardigi cookies leri sildik...
-        driver.findElement(By.cssSelector("a[id^='u_'][id$='_2']")).click();Thread.sleep(1000);
+        driver.manage().deleteAllCookies(); // siteler bizim bilgileri tutarak bazen engel cikardigi cookies leri sildik...
+        driver.findElement(By.cssSelector("button[data-cookiebanner='accept_button']")).click();Thread.sleep(1000);
+        driver.findElement(By.cssSelector("a[rel='async']")).click();
 
-        driver.findElement(By.cssSelector("input[id^='u_'][id$='_b']")).sendKeys("Ahmet"); Thread.sleep(500);  // firstname
-        driver.findElement(By.cssSelector("input[id^='u_'][id$='_d']")).sendKeys("Kaya");Thread.sleep(500);  // lastname
+        driver.findElement(By.cssSelector("input[id^='u_'][id$='_3n']")).sendKeys("Ahmet"); Thread.sleep(500);  // firstname
+        driver.findElement(By.cssSelector("input[id^='u_'][id$='_xt']")).sendKeys("Kaya");Thread.sleep(500);  // lastname
 
         System.out.println("Confirmed EMail Box is displayed : "+driver.findElement(By.cssSelector("input[id^='u_'][id$='_j']")).isDisplayed());
         driver.findElement(By.cssSelector("input[id^='u_'][id$='_g']")).sendKeys("ahmet@kaya.com");Thread.sleep(500);  // email

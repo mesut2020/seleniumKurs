@@ -13,6 +13,7 @@ public class _01_ActionClickTest extends BaseStaticDriver {
         WebElement clickButton = driver.findElement(By.xpath("//button[text() = 'Click Me']"));
         Actions builder = new Actions(driver); // driver üzerinden aksiyonları çalıştırmak için değişken tanımladım
 
+        //builder.moveToElement(clickButton).click().perform();
         Action build = builder.moveToElement(clickButton).click().build();  // aksiyonlar değişkenine bir aksiyon ekledim.
         // Henüz işlem olmadı.
 

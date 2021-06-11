@@ -17,10 +17,11 @@ public class _01_HoverOver extends BaseStaticDriver {
         Actions builder = new Actions(driver);
         Action build = builder.moveToElement(bank).build();
         Thread.sleep(2000);
-        driver.findElement(By.cssSelector("#flow_close_btn_iframe")).click();   // sol altta video aciliyor, onu kapatmak icin...
+        //driver.findElement(By.cssSelector("#flow_close_btn_iframe")).click();   // sol altta video aciliyor, onu kapatmak icin...
 
 
         System.out.println("Mous uzerine gelmeden once renk :" + Color.fromString(bank.getCssValue("color")).asHex());
+        System.out.println("Mous uzerine gelmeden once renk :" + bank.getCssValue("color"));
         build.perform();Thread.sleep(3000);
         System.out.println("Mous uzerine geldikten sonra renk :" + Color.fromString(bank.getCssValue("color")).asHex());
 

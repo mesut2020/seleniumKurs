@@ -26,8 +26,10 @@ public class _03_IntroAlert  extends BaseStaticDriver {
         clickMe1.click();
         Thread.sleep(2000);
 
+        System.out.println(driver.switchTo().alert().getText());
         driver.switchTo().alert().accept(); // Alert kutucuğuna geçildi ve Tamam butonuna basıldı.
         // web sayfasından Alert kutucuğuna geçildi.  switchTo
+
 
         WebElement clickMe2 = driver.findElement(By.xpath("//button[@onclick='myConfirmFunction()']"));
         clickMe2.click();

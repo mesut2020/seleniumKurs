@@ -7,6 +7,6 @@ public class araTest {
         String ad2="Ali ";
         ad2=ad2.trim();
 
-        System.out.println((ad1==ad2) + "  " + (ad1=="Ali"));
+        System.out.println((ad1==ad2) + "  " + (ad1=="Ali") + "   "+ ad1.equals(ad2));
     }
 }

@@ -17,6 +17,7 @@ public class _04_IFrame extends BaseStaticDriver {
 
         WebElement input=driver.findElement(By.cssSelector("input[type='text']"));
         input.sendKeys("Türkiye");
+
         driver.switchTo().frame("frame3");
         driver.findElement(By.id("a")).click();
 
@@ -34,10 +35,8 @@ public class _04_IFrame extends BaseStaticDriver {
         Select menu = new Select(driver.findElement(By.id("animals")));
         menu.selectByIndex(3);
 
-        Thread.sleep(6000);
+        Thread.sleep(3000);
         driver.quit();
 
-        Thread.sleep(6000);
-        driver.quit();
     }
 }

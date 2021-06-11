@@ -24,13 +24,13 @@ public class _01_ExplicitWait extends BaseStaticDriver {
 
         // ExplicitWait
 
-        WebDriverWait wait = new WebDriverWait(driver, 45);
-        WebElement text = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='Webriver']")));
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        WebElement text = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='WebDriver']")));
         // Bu locator daki elemen gorunur(visible) olana kadar bekle...
         // Implicit ve Explicit bekleme kullanildiginda ikisinide kullanir...
 
 
-Thread.sleep(5000);
+Thread.sleep(2000);
 driver.quit();
 
     }

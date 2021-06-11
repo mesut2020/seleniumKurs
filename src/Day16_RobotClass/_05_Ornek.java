@@ -33,7 +33,7 @@ public class _05_Ornek extends BaseStaticDriver {
         Assert.assertEquals("Hata var...", expectedText, driver.getTitle());
 
 
-        Thread.sleep(6000);
+        Thread.sleep(3000);
         driver.quit();
     }
 }

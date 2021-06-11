@@ -13,11 +13,11 @@ public class _02_Copytext extends BaseStaticDriver {
         driver.get("http://demo.guru99.com/test/upload/");
 
         // alttaki video yu kapatmak icin...
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("flow_close_btn_iframe")));
-//        driver.switchTo().frame("flow_close_btn_iframe");
-//        WebElement kapatButonu = driver.findElement(By.id("closeBtn"));
-//        kapatButonu.click();
-//        driver.switchTo().defaultContent();
+        // wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("flow_close_btn_iframe")));
+        // driver.switchTo().frame("flow_close_btn_iframe");
+        // WebElement kapatButonu = driver.findElement(By.id("closeBtn"));
+        // kapatButonu.click();
+        // driver.switchTo().defaultContent();
 
         Thread.sleep(2000);
        driver.findElement(By.id("file_wraper0")).click(); // Choose File button
@@ -40,7 +40,7 @@ public class _02_Copytext extends BaseStaticDriver {
         robot.keyRelease(KeyEvent.VK_ENTER);
 
         // dosya adini kopyala ve enter la..
-        stringSelection = new StringSelection("ornek.txt");
+        stringSelection = new StringSelection("SecondaHand.jpeg");
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection , null);
 
         Thread.sleep(2000);
@@ -55,6 +55,8 @@ public class _02_Copytext extends BaseStaticDriver {
         robot.keyRelease(KeyEvent.VK_ENTER);
         Thread.sleep(2000);
 
+        //driver.findElement(By.cssSelector("center>span.field_title")).click();
+        Thread.sleep(1000);
         WebElement btn = driver.findElement(By.id("submitbutton"));
         btn.click();
 

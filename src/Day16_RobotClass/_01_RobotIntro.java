@@ -13,7 +13,9 @@ import java.awt.event.KeyEvent;
 
 public class _01_RobotIntro  extends BaseStaticDriver {
     public static void main(String[] args) throws InterruptedException, AWTException {
-        driver.get("http://www.cleartrip.com/");
+        driver.get("http://www.clC:\\Users\\medog\\Desktop" +
+                "ornek.txt" +
+                "eartrip.com/");
 
         Robot robot = new Robot();
 
@@ -22,6 +24,7 @@ public class _01_RobotIntro  extends BaseStaticDriver {
         robot.keyPress(KeyEvent.VK_TAB); //  TAB a bastik
         robot.keyRelease(KeyEvent.VK_TAB); //  biraktik...
         Thread.sleep(1000);
+
 
         robot.keyPress(KeyEvent.VK_TAB); //  TAB a bastik
         robot.keyRelease(KeyEvent.VK_TAB); //  biraktik...

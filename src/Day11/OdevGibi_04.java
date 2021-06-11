@@ -13,7 +13,6 @@ public class OdevGibi_04 extends BaseStaticDriver {
         driver.get("http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
         driver.manage().window().maximize();
 
-
         // Dogru secenek yesil oldugu icin, deneyererk butun baskentleri ulkelere atiniz...
 
         // source : box1       target : box101

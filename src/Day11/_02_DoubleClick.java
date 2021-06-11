@@ -14,9 +14,11 @@ public class _02_DoubleClick extends BaseStaticDriver {
 
         Actions builder = new Actions(driver);
 
-        Action build = builder.moveToElement(doubleClickButton).doubleClick().build();
+//        Action build = builder.moveToElement(doubleClickButton).doubleClick().build();
+//        build.perform();
+        builder.moveToElement(doubleClickButton).doubleClick().perform();
 
-        build.perform();
+
 
         Thread.sleep(3000);
         driver.quit();

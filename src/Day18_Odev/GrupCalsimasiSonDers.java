@@ -39,9 +39,10 @@ public class GrupCalsimasiSonDers extends BaseStaticDriver {
 
         List<WebElement> urunler = driver.findElements(By.cssSelector("div[class='trendingProd product-relative dp-widget-link col-xs-5 favDp']>a>div+div+div>div[class='product_name']"));  // div[class='trendingProd product-relative dp-widget-link col-xs-5 favDp']   20 urun cikiyor         //div.product_name   29 tane buluyor
         // for (int i = 0; i < 5; i++) {
+        System.out.println("Urun sayisi:" + urunler.size());
 
-           int index = (int) (Math.random() * 20 + 0); // Ana sayfa ilk acildiginda 5 urun icin. index=4  den basliyor...  ama geri gelince 0 dan basliyor 0 1 2 3 4
-            //int index = i;
+        int index = (int) (Math.random() * urunler.size() + 0); // Ana sayfa ilk acildiginda 5 urun icin. index=4  den basliyor...  ama geri gelince 0 dan basliyor 0 1 2 3 4
+            // int index = 15;  0-0.9
 
             ekrandaUrunuGoster(urunler, index);
 
@@ -49,6 +50,7 @@ public class GrupCalsimasiSonDers extends BaseStaticDriver {
             urunler.get(index).click(); // secilen urunu tikla
 
             Set<String> windowsIDs = driver.getWindowHandles();  // Acilan pencerelerin ID lerini al ve acilan pencereye git
+
             for (String id : windowsIDs) {
                 if (homePageID.equals(id)) continue;
                 driver.switchTo().window(id);
@@ -69,7 +71,7 @@ public class GrupCalsimasiSonDers extends BaseStaticDriver {
 
             Assert.assertEquals("Hata:...", secilenUrun, sepetUrun);
 
-            driver.findElement(By.cssSelector("div.remove-item-div")).click();
+            driver.findElement(By.cssSelector("div.remove-item-div")).click();  // remove a tikla
             Thread.sleep(1000);
             driver.findElement(By.cssSelector("span[data-omniturename='cartCrossedNew']")).click();
 

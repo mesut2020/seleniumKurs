@@ -27,7 +27,10 @@ public class SeleniumProject2a extends BaseStaticDriver {
         driver.findElement(By.cssSelector("input#user_password")).sendKeys("password");
         driver.findElement(By.cssSelector("input[name='submit']")).click();
 
-        driver.findElement(By.id("transfer_funds_tab")).click();
+        if (driver.findElement(By.cssSelector("#primary-button")).isDisplayed())
+            driver.findElement(By.cssSelector("#primary-button")).click();
+
+        driver.findElement(By.id("transfer_funds_link")).click();
 
         WebElement fromAccount = driver.findElement(By.cssSelector("select#tf_fromAccountId"));
         Select fromAccountMenu = new Select(fromAccount);
@@ -50,7 +53,6 @@ public class SeleniumProject2a extends BaseStaticDriver {
         String actualResult = result.getText();
 
         Assert.assertTrue("Hata: Sonuc mesaji alinamadi...", actualResult.contentEquals("You successfully submitted your transaction."));
-
 
         Thread.sleep(3000);
         driver.quit();

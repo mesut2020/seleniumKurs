@@ -1,9 +1,7 @@
 package Day14_Windows_Scrolling;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import utils.BaseStaticDriver;
 
 public class _07_KademeliKaydirma extends BaseStaticDriver {
@@ -11,7 +9,10 @@ public class _07_KademeliKaydirma extends BaseStaticDriver {
 
         driver.get("https://de.hotels.com/search.do?resolved-location=CITY%3A336647%3AUNKNOWN%3AUNKNOWN&destination-id=336647&q-destination=Frankfurt,%20Hessen,%20Deutschland&q-check-in=2020-09-11&q-check-out=2020-09-12&q-rooms=1&q-room-0-adults=2&q-room-0-children=0");
         Thread.sleep(1000);
-        WebElement link = pageScrollToFindElement(driver, By.linkText("Residence Inn by Marriott Frankfurt City Center"), 100);
+        new Actions(driver).sendKeys(Keys.ESCAPE).perform(); // Cikan takvim i iptal etmek icin
+        WebElement link = pageScrollToFindElement(driver, By.cssSelector("button[type='button']"), 100);
+        System.out.println("Simdi Burada");
+
         System.out.println(link.getText());
         driver.quit();
     }
@@ -29,7 +30,7 @@ public class _07_KademeliKaydirma extends BaseStaticDriver {
                 scrollPage(driver, pixelToDown);
                 currentPixel+=pixelToDown;
                 System.out.println(bodyHeight(driver));
-                Thread.sleep(100);
+                //Thread.sleep(100);
             };
         }
         return element;

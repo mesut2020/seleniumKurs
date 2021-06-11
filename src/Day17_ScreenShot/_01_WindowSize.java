@@ -9,7 +9,6 @@ public class _01_WindowSize extends BaseStaticDriver {
     public static void main(String[] args) throws InterruptedException, AWTException {
         driver.get("https://www.yogaalliance.org/");
 
-
         Dimension dimension = driver.manage().window().getSize();
         System.out.println(dimension.getHeight());
         System.out.println(dimension.getWidth());

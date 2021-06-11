@@ -23,6 +23,8 @@ public class _04_Kaydet extends BaseStaticDriver {
         robot.keyPress(KeyEvent.VK_ENTER);
         robot.keyRelease(KeyEvent.VK_ENTER);
 
+        //TODO Asagidaki bolum uzerine kaydetme durumunda
+        // tekrar kaydetmesini saglamak icin
         Thread.sleep(5000);
         robot.keyPress(KeyEvent.VK_LEFT);
         robot.keyPress(KeyEvent.VK_ENTER);
