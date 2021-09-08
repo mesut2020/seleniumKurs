@@ -15,7 +15,7 @@ public class BaseStaticDriver {
 
     static{
         System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true"); // Konsoldaki kirmizi yazilari gostermez
-        System.setProperty("webdriver.chrome.driver","drivers/chromedriver90.exe");
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
         driver= new ChromeDriver();
 
         wait = new WebDriverWait(driver, 10);  // explicit wait
